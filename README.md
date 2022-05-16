@@ -14,7 +14,7 @@ Also, the graph costruction problem is challenging in this setting.
 ## Tools
 [![tsl](https://torch-spatiotemporal.readthedocs.io/en/latest/_static/tsl_logo.svg)](https://torch-spatiotemporal.readthedocs.io/en/latest/#)[^1]
 
-[^1] TorchSpatiotemporal library that can be found on [github](https://github.com/TorchSpatiotemporal).
+[^1]: TorchSpatiotemporal library that can be found on [github](https://github.com/TorchSpatiotemporal).
 
 
 ## Main references
