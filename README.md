@@ -33,7 +33,7 @@ Follows a section with the description of the datasets created and the repositor
 - air_mobility: from the air_mobility_sources we have extracted data about 2008, in particular aggregating airports per counties in order to model the air traffic between counties in the US.
 
 
-- county_adjacency2010: dataset taken from: https://www.nber.org/research/data/county-adjacency. In this dataset there are all the neighbouring counties.
+- county_adjacency2010: dataset taken from the National Bureau of Economic Research ([NBER](https://www.nber.org/research/data/county-adjacency). In this dataset there are all the neighbouring counties.
 
 - date_fips_case_matrix_2020: dataset constructed having for each day the number of cases per fips.
 
@@ -41,16 +41,16 @@ Follows a section with the description of the datasets created and the repositor
 
 - population: dataset where given a FIPS we have the population (census of 2019). To create this dataset we used COVID-19_Vaccinations_in_the_United_States_County.
 
-- sf12010countydistance50miles: dataset taken from: https://www.nber.org/research/data/county-distance-database. This dataset shows the adjacent counties with a maximum distance of 50 miles.
+- sf12010countydistance50miles: dataset taken from the National Bureau of Economic Research ([NBER](https://www.nber.org/research/data/county-distance-database). This dataset shows the adjacent counties with a maximum distance of 50 miles.
 
 - sf12010countydistancemiles.csv[^2]: dataset taken as well from the National Bureau of Economic Research ([NBER](https://www.nber.org/research/data/county-distance-database)) and contains distances between counties calculated using the Haversine formula based on internal points in the geographic area.
 
-- us-counties-202X: dataset taken from: https://github.com/nytimes/covid-19-data. In these datasets we have the number of cases and deaths per each day and per each counties.
+- us-counties-202X: dataset taken from [NYT](https://github.com/nytimes/covid-19-data). In these datasets we have the number of cases and deaths per each day and per each counties.
 
-- uscounties: dataset taken from: https://colab.research.google.com/drive/1Uc681zU9bfeTkSMyg2oqFccjP-UYpPLW#scrollTo=-N4pYpcKDau8. In these dataset there are the information of the counties, as name of the county, its FIPS, in which state it is and its localization (latitude and longitude).
+- uscounties: dataset taken from the following [colab notebook] (https://colab.research.google.com/drive/1Uc681zU9bfeTkSMyg2oqFccjP-UYpPLW#scrollTo=-N4pYpcKDau8). In these dataset there are the information of the counties, as name of the county, its FIPS, in which state it is and its localization (latitude and longitude).
 
 - vaccination_per_county_202X: datasets created from COVID-19_Vaccinations_in_the_United_States_County. These datsets show the percentage of the population vaccinated per each day and per each FIPS.
 
-- COVID-19_Vaccinations_in_the_United_States_County: dataset taken from: https://healthdata.gov/dataset/COVID-19-Vaccinations-in-the-United-States-County/ipdn-uaih/data. In this dataset there is all the relative data to the COVID-19, as percentage of the population vaccinated per each county per each day, but also a more detailed data as how many first doses are given in a given county for each date or also how many booster were distributed.[^2] 
+- COVID-19_Vaccinations_in_the_United_States_County: dataset taken from the [U.S. Department of Health and Human Services Office of the Chief Data Officer](https://healthdata.gov/dataset/COVID-19-Vaccinations-in-the-United-States-County/ipdn-uaih/data). In this dataset there is all the relative data to the COVID-19, as percentage of the population vaccinated per each county per each day, but also a more detailed data as how many first doses are given in a given county for each date or also how many booster were distributed.[^2] 
 
 [^2]: couldn't be uploaded due to the size of the file.
