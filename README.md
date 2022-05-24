@@ -47,7 +47,7 @@ Follows a section with the description of the datasets created and the repositor
 
 - us-counties-202X: dataset taken from [NYT](https://github.com/nytimes/covid-19-data). In these datasets we have the number of cases and deaths per each day and per each counties.
 
-- uscounties: dataset taken from the following [colab notebook] (https://colab.research.google.com/drive/1Uc681zU9bfeTkSMyg2oqFccjP-UYpPLW#scrollTo=-N4pYpcKDau8). In these dataset there are the information of the counties, as name of the county, its FIPS, in which state it is and its localization (latitude and longitude).
+- uscounties: dataset taken from the following [colab notebook](https://simplemaps.com/data/us-counties). In these dataset there are the information of the counties, as name of the county, its FIPS, in which state it is and its localization (latitude and longitude).
 
 - vaccination_per_county_202X: datasets created from COVID-19_Vaccinations_in_the_United_States_County. These datsets show the percentage of the population vaccinated per each day and per each FIPS.
 
